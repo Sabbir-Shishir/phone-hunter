@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Hunter</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="my-5">
+        <h1 class="text-center">Welcome to my Phone Hunter</h1>
+    </header>
+    <main class="container my-4">
+        <section class="mb-5">
+            <div class="input-group">
+                <input id="search-field" type="text" class="form-control" placeholder="Search Your Phone"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button id="btn-search" class="btn btn-outline-dark fw-bold" type="button"
+                    id="button-addon2">Search</button>
+            </div>
+        </section>
+        <section>
+            <div id="phone-container" class="row row-cols-1 row-cols-md-3 g-4">
+
+            </div>
+            <div id="warning" class="bg-dark d-none">
+                <h1 class="text-muted">No Phone Found! Please Try a New Search</h1>
+            </div>
+            <div id="show-all" class="text-center d-none mt-4">
+                <button id="btn-expand" type="button" class="btn btn-outline-dark px-4">Show All</button>
+            </div>
+        </section>
+        
+        <!-- Loder -->
+        <section id="loader" class="d-none">
+            <div style="height: 24rem;" class="d-flex justify-content-center align-items-center">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- modal contents -->
+        <section>
+            <!-- Modal -->
+            <div class="modal fade" id="phoneDetailsModal" tabindex="-1" aria-labelledby="phoneDetailsLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="phoneDetailsLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div id="phone-details" class="modal-body">
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.card-img-top {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.input-group {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form-control {
+    font-weight: 500;
+}
+
+#warning {
+    height: 24rem;
+}
+
+#warning h1 {
+    text-align: center;
+    padding-top: 11rem;
+}
+
+#expand-btn:hover {
+    background: transparent;
+    color: #000;
+    font-weight: 600;
+}
+
+/* Phone Details Start */
+.details-img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.details-image {
+    width: 150px;
+}
+
+.details-property {
+    font-weight: 600;
+    margin-right: 10px;
+}
+/* Phone Details End */
