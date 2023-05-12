@@ -16,7 +16,7 @@ To run this project on your local machine, you need to follow these steps:
 - Clone this repository to your local machine using this command: 
 
 ```bash
-  git clone https://github.com/<your-username>/<repository-name>.git
+  git clone https://github.com/Sabbir-Shishir/phone-hunter.git
 ```
 
 - Navigate to the project directory in your terminal using `cd` command.
