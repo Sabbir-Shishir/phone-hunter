@@ -1,4 +1,4 @@
-# Loading an API with JavaScript
+# Phone Hunter
 
 This project demonstrates how to load an API using JavaScript and perform different operations on it.
 
